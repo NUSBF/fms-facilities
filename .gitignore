@@ -1,4 +1,5 @@
 fms_backend/node_modules/
+fms_backend/uploads/
 fms_frontend/node_modules/
 fms_backend/.env
 fms_frontend/.env
