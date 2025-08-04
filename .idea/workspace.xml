@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.General.ProjectPrompt">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.General.ProjectPrompt" />
+              <option name="content" value="- always use this multi-command pattern to restart frontend server:&#10;  ```&#10;  nusbf&#10;  sudo systemctl restart fms-frontend.service&#10;  ```&#10;- always use this multi-command pattern to restart backend server:&#10;  ```&#10;  nusbf&#10;  sudo systemctl restart fms-backend.service&#10;  ```&#10;- Follow consistent existing code formatting&#10;- Where appropriate in menus and tab list order the entries alphabetically&#10;- Prefer modern JavaScript/React patterns&#10;- Include error handling where appropriate&#10;- Instead, always provide a text box with commands for the user to copy and execute themselves&#10;- Never create code that modify the database schema in the react app.&#10;- Only one cli at the time, never bombard the user with multiple commands&#10;- DO NOT MAKE ASSUMPTIONS ABOUT ANYTHING. Ask the user for clarification if needed.&#10;- This is a React-based facilities management system&#10;- Use functional components and hooks&#10;- Follow the existing project structure&#10;- Maintain consistent styling with the current UI&#10;- API endpoints MUST use `/fms-api/...` prefix - NEVER use `/api/...`&#10;- Always verify API endpoint paths match the server.js implementation exactly&#10;- All API calls should follow the pattern: axios.get('/fms-api/endpoint-name', config)&#10;&#10;&#10;&#10;&#10;" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34d4bc00-47eb-4fc8-9d9f-8698f10ced2f" name="Changes" comment="using webstorm" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="30n3up3pBoqTRJ0wzHdiwfXhhAE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34d4bc00-47eb-4fc8-9d9f-8698f10ced2f" name="Changes" comment="" />
+      <created>1754249736493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754249736493</updated>
+      <workItem from="1754249738148" duration="535000" />
+      <workItem from="1754294807447" duration="1486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="using webstorm" />
+  </component>
+</project>
