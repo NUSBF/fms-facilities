@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea
+.vscode
+
+# Backend-specific
+fms_backend/node_modules/
+fms_backend/.env
+
+# Frontend-specific
+fms_frontend/node_modules/
+fms_frontend/.env
+
+# Exclude everything inside uploads but keep the directory tracked
+fms_backend/uploads/*
+!fms_backend/uploads/.gitkeep
