@@ -1,12 +1,14 @@
+# Ignore node_modules in both fms_backend and fms_frontend
 fms_backend/node_modules/
+fms_frontend/node_modules/
+
+# Ignore uploads in fms_backend
 fms_backend/uploads/*
-fms_frontend/node_modules/
+
+# Ignore environment files
 fms_backend/.env
 fms_frontend/.env
-fms_backend/node_modules/
-fms_frontend/node_modules/
-fms_backend/.env
-fms_frontend/.env
+
+# Ignore IDE and editor files
 .idea
 .vscode
-
